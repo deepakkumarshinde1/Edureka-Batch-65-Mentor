@@ -225,6 +225,27 @@
     => how to share a static file like , css,images,browser js/plugins
 
 
+############# HTML ###################
+# What is HTML ?
+    => Hyper Text Markup Language use to structure a web page.
+
+# !DOCTYPE in HTML ?
+    => It indicates the type (version) of document
+    => HTML5 => <!DOCTYPE html> 
+    => XHTML => <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+    => HTML4 => <!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+
+# What is a block level element ?
+    => if elements occupies 100% with it is called as block element 
+
+# What is a inline level element ?
+    => if elements occupies only the content width it is called as inline element 
+
+# What is a attributes in html ?
+    => attributes are the characteristics of an element.
+    => attributes provides extra features for element
+    => eg "a" tag has attribute "href" which gives ability to navigate 
+        from page to other page or from one portion to other portion of page
 
 
 
