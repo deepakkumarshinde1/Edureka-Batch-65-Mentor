@@ -1,0 +1,232 @@
+# conditional or comparison operators
+    == ===  != !== < > <= >=
+
+    6 == '6' ==> True :: data
+    6 === '6' ==> False :: data and data type
+
+    != ==> data
+    !== ==> data and data type
+
+# what is a function ?
+    function is block code , function are use for reusable functionality.
+
+# what is syntax function 
+    function funName(varOne,varTwo){
+        // code 
+    } // function definition
+
+    funName(1,a);// function call
+
+    here (1,a) ==> actual parameter
+    here (varOne,varTwo) ==> formal parameter
+
+#  how to define a default value to formal parameter ?
+
+    function add(valueOne = 0,valueTwo = 0){
+        let result = valueOne + valueTwo;
+        console.log(result)
+    }
+
+    add(10,20) ==> 30
+    add() ==> undefined or null or NaN
+
+# What is ternary operator ?
+   let result = condition ? true:false;
+
+# What is callback function ?
+    callback function is a function which is passed in other function all parameter
+
+    funName(function(){
+        // callback function
+    })
+
+# What is arrow function ie => ?
+    # arrow function is compact alternative to traditional function expression
+    # arrow function gives a reference to nearest function definition instance 
+    # if we only have one line of code we can ignore {} & return keyword also
+
+    array.map((value)=> value)
+
+
+# What difference var & let keyword?
+    # for var same variable name can be initialize more then one time i.e var a; var a  => 👍
+    # for let same variable name can't be initialize more then one time i.e let a; let a => 👎
+    
+    # var is scope with a nearest upper function or instance 
+    # let is having a scope on for that block
+
+# What DOM ?
+    => Is a document object Model
+    => DOM tree is Created On Browser Load 
+    => We can access a html element in javascript
+    => "document" is a object use to handel this operation
+    => html root element is "<HTML>" 
+
+# React which tree ?
+    => V DOM tree
+
+# What is a promise in javascript?
+    => Promise is async API of javascript
+    => Promise are used error handling of a operation
+
+# a loop question ?
+    => for loop 
+    => 100, 97 , 94 , 91 , 88 , 85 ....... 1
+    => for (let i = 100; i > 0; i -= 3) {
+            console.log(i);
+        }
+
+# What is a array in javascript ?
+    => [1,'a',true,null,function(){},{},[1,2,3]] => 👍
+    => its a collection of key value pair.
+    => array is a collection of similar or different data types
+
+# What is a starting index of array ?
+    => 0
+    => Auto gen
+
+# Which method are use to add data in array?
+    => push
+    => unshift
+    => splice
+
+# Which method are use to delete data in array ?
+    => pop
+    => shift
+    => splice
+
+# Which method are use to update data in array ?
+    => splice
+
+#  Which method are use to find data in array ?
+    => find
+    => filter
+    => findIndex
+
+# Which method are use to cut a array ?
+    => slice
+
+# Which method are use to recreate a array ?
+    => map
+
+# Do array have a limit in javascript ?
+    => no
+
+# What is a JSON ?
+    => Its a javascript Object Notation
+
+# javascript Object i.e {} ?
+    => its a collection of key value pair.
+    => in JS Object key are user defined e.g {name:'abc'}
+
+# can i write same keys in an object ?
+    => { name:'Edureka',name:'Deepak'}
+    => both | only one | error
+    => only one i.e the last one
+
+# What is async keyword use for ?
+    => when we use async key word in-front of a function 
+       it convert a normal function to promise function
+    
+# What is "async await" use for ?
+    => when we use async await we can run promise after other promise
+    => by default promise are async in nature
+    => if we are having dependance on one promise on other 
+
+    async function funA(){
+        try{
+            await promiseFun1();
+            await promiseFun2();
+            await promiseFun3();
+            await promiseFun4();
+        }catch(error){
+
+        }
+    }
+
+# which is a storage in browser ?
+    application 
+        cookies => 4kb Data
+     #  localStorage => 5MB to 10MB
+        sessionStorage => 5MB to 10MB
+        indexDB => More Then 10MB it uses {}
+        WebSQL =>SQL Language For More Then 10MB => SQL
+
+# What is Node JS ?
+    => Node JS A Runtime Environment For Javascript
+    => Open Source
+    => Can be use a as server 
+
+# Which Engine Node JS ?
+    => V8 Engine
+
+# What is module/modules in Node JS ?
+    => Module is set of code it can be a function , array, object, class etc
+    => Modules are reusable
+    => Modules are used by importing 
+    => Node JS application is a collection modules
+    => 3 type of module
+        => Native/Core Modules => os , http, utl , fs, path ,event , https
+        => Custom Module => restaurant, location, mealtype
+        => 3rd party module (Create by other organization or a person) => packages
+                => React, Express , Mongoose , Morgan (logger),Debug , dotenv  
+        => npmjs.com
+
+# What is a NPM ?
+    => Node Package Manager.
+    => npm init => creates packages.json
+    => npm init -y 
+    => npm install express , npm i express
+    => npm uninstall express , npm un express
+    
+# What is package.json ?
+    => It consists information/meta data about project 
+
+# What is package-lock.json ?
+    => It consists all information of packages install in node_module folder
+    => auto gen file 
+    => handel by npm only
+
+# What is POSTMAN ? 
+    => API testing Application
+    => Manual API Testing Tool.
+
+# What is REST API ?
+    => REST => Representational State Transfer 
+    => API => Application Programming Interface
+    => When We communicate between client and server or server and server We use REST API
+
+#  API => in JavaScript
+        setTimeout()
+        setInterval()
+        promise()
+        fetch => promise base API 
+        xhr => XML HTTP Request
+        async 
+        async await 
+
+
+# Node JS Basic Definition
+# http => how to use it 
+# path,url,fs module
+# Node JS Working => Event Loop & Async IO work
+# Main Thread and worker Threads
+# How to use ES6 Syntax Import in Node JS
+# ExpressJS 
+    => WHat 
+    => How to use 
+    => Routings
+    => Create a server
+    => What is a middleware 
+    => How to create a custom middleware
+    => MVC => pattern
+    => How to handel JWT for Authorization and Authentication
+    => How to hash a password
+    => how to share a static file like , css,images,browser js/plugins
+
+
+
+
+
+
+    
