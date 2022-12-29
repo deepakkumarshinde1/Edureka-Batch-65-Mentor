@@ -247,7 +247,28 @@
     => eg "a" tag has attribute "href" which gives ability to navigate 
         from page to other page or from one portion to other portion of page
 
+# list any 5 attributes of input element ?
+    => required , type , value , name , placeholder , disabled, readonly , checked, autocomplete
 
+# what is use of row span in table ? 
+    => merge rows of specific column
 
+# What is use of iframe element ?
+    => iframe can attached a document of other site. like map, 3rd parti side page
+
+# What a box model in CSS ?
+
+# What is difference between padding & margin ?
+
+# What is a absolute position ?
+
+# What is a difference between relative & absolute position ?
+
+# Enlist any 5 props of background.
+
+# What is a flexbox ?
+
+# What is difference between justify-content & align-items
+    
 
     

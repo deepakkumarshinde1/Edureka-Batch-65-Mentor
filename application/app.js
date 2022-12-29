@@ -1,5 +1,6 @@
 const express = require("express");
 const fileUpload = require("express-fileupload");
+const mLocation = require("./Controller/locationController");
 const app = express();
 
 app.use(express.json());
@@ -19,6 +20,9 @@ app.post("/save-user", (request, response) => {
   var user = request.body;
   response.send({ user });
 });
+
+app.get("/location-list", mLocation.getLocation);
+app.get("/restaurant-list/:city", mLocation.getRestaurant);
 app.listen(3000, () => {
   console.log("server is running on port ", 3000);
 });
