@@ -270,5 +270,48 @@
 
 # What is difference between justify-content & align-items
     
+/************* ES6*******************/
+
+# What is ES in ES6?
+    => ES => ECMA => European Computer Manufacture Association
+
+# When is ES6 Introduced ?
+    => 2015
+
+# What is CLASS ?
+    => Class is collections or set of property's and methods
+    => property are like variables
+    => methods are like a function
+    => but to work or to run property's and methods we need to create a "Object" of a class
+
+# How we create class ? 
+    => class Classname{}
+    => Class Name's 1st Character must be UpperCase
+
+# What is a new keyword use for?
+    => new keyword is use to create a class
+
+# What is constructor in class ?
+    => it is use to initialize the class variables and method and it get invokes automatically when object is created
+    => Very 1st this which runs in Class at the time of object creation is "constructor"
+
+# What is static method ?
+    => static methods a utilities 
+    => we can call static methods by ClassName
+    => create a static method we need to use "static" keyword
+    => we can also create a static property
+
+# What is a call , apply & bind in JS ?
+    => to change a reference/context of this keyword
+    => call & apply are working like same 
+    => The call() method takes arguments separately. The apply() method takes arguments as an array.
+
+# What is use of super keyword ?
+    => super is use call a parent constructor and to assign this context to parent constructor
+
+
+
+
+
 
     
