@@ -309,7 +309,18 @@
 # What is use of super keyword ?
     => super is use call a parent constructor and to assign this context to parent constructor
 
+# to pull code from other repository we use "git clone url"
 
+# if its your own account 
+    git init
+    git branch -M branchName
+    git remote add origin url
+    git pull
+
+    to push on change
+    git add .
+    git commit -m "message"
+    git push origin branchName
 
 
 
